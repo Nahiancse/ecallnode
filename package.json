@@ -1,0 +1,32 @@
+{
+  "name": "ecall2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+    
+  },
+  "author": "nahian",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "multer": "^1.4.2",
+    "node-localstorage": "^2.1.6",
+    "nodemailer": "^6.5.0",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.0.1",
+    "validator": "^13.5.2"
+  },
+  "engines": {
+    "node": "14.15.5"
+  }
+
+}
