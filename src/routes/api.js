@@ -306,7 +306,7 @@ apiRouter.patch("/updatepatient/", async(req,res)=>{
 apiRouter.delete("/deletepatient/", async(req,res)=>{
 
     try {
-     const deletepatient = await Patient.deleteOne({nurseCode: req.query.nurseCode});
+     const deletepatient = await Patient.deleteOne({patientCode: req.query.patientCode});
      if(deleteNurse){
          res.json({message:"PATIENT has been deleted!!"}).statusCode(200);
      }
